@@ -1,24 +1,17 @@
 import React, { useState } from "react";
-import { Sidebar } from "./Sidebar";
 import "./Navside.css";
 
 import tshirt from "../../../src/tshirt.jpg"
 import {
   CalendarToday,
-  ContactMail,
   DoubleArrow,
-  Home,
-  Info,
   LocalMall,
   Note,
   Person,
   PhonelinkRing,
-  RateReviewSharp,
   Search
 } from "@material-ui/icons";
 import "./Side.css";
-import Side from "./Side";
-import Sidenew from "./Sidenew";
 
 const Navside = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -93,14 +86,14 @@ const Navside = () => {
                   style={{ width: "100%", height: "100%" }}
                 >
                   <div className="card ">
-                    <img src={tshirt} />
+                    <img src={tshirt} alt=".."/>
                     <div className="card-body">
                       <p className="card-text collectionName">White Kimono</p>
                       <p className="card-text productName">2000</p>
                     </div>
                   </div>
                   <div className="card ">
-                    <img src={tshirt} />
+                    <img src={tshirt} alt=".."/>
                     <div className="card-body">
                       <p className="card-text collectionName">White Kimono</p>
                       <p className="card-text productName">2000</p>
@@ -112,14 +105,14 @@ const Navside = () => {
                   style={{ width: "100%", height: "100%" }}
                 >
                   <div className="card ">
-                    <img src={tshirt} />
+                    <img src={tshirt} alt=".."/>
                     <div className="card-body">
                       <p className="card-text collectionName">White Kimono</p>
                       <p className="card-text productName">2000</p>
                     </div>
                   </div>
                   <div className="card ">
-                    <img src={tshirt} />
+                    <img src={tshirt} alt=".."/>
                     <div className="card-body">
                       <p className="card-text collectionName">White Kimono</p>
                       <p className="card-text productName">2000</p>
